@@ -11,6 +11,7 @@
 		E26416FB27A152D900F058D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26416FA27A152D900F058D7 /* ContentView.swift */; };
 		E26416FD27A152DB00F058D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26416FC27A152DB00F058D7 /* Assets.xcassets */; };
 		E264170027A152DB00F058D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26416FF27A152DB00F058D7 /* Preview Assets.xcassets */; };
+		E264170827A15A9C00F058D7 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264170727A15A9C00F058D7 /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E26416FA27A152D900F058D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E26416FC27A152DB00F058D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E26416FF27A152DB00F058D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E264170727A15A9C00F058D7 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E26416F727A152D900F058D7 /* ChatSample */ = {
 			isa = PBXGroup;
 			children = (
+				E264170627A15A8400F058D7 /* Components */,
 				E26416F827A152D900F058D7 /* ChatSampleApp.swift */,
 				E26416FA27A152D900F058D7 /* ContentView.swift */,
 				E26416FC27A152DB00F058D7 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				E26416FF27A152DB00F058D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E264170627A15A8400F058D7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E264170727A15A9C00F058D7 /* TitleRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				E26416FB27A152D900F058D7 /* ContentView.swift in Sources */,
 				E26416F927A152D900F058D7 /* ChatSampleApp.swift in Sources */,
+				E264170827A15A9C00F058D7 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
